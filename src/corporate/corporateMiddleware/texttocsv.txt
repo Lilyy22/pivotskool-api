@@ -1,0 +1,26 @@
+1	Vanna Allen	Qui officia in repre	1	2023-08-29 09:53:38.7940000	2023-08-29 09:53:38.7940000
+4	Agricultural Technical and Vocational  Lead Executive Officer	ግብርና ቴክኒክና ሙያ መሪ ሥራ አስፈፃሚ	4	2023-08-29 09:53:38.7940000	2023-08-29 09:53:38.7940000
+5	Audit Executive Office	ኦዲት ሥራ አስፈፃሚ	3	2023-08-29 09:53:38.7940000	2023-08-29 09:53:38.7940000
+7	Basic Service Executive Office	መሠረታዊ አገልግሎት ሥራ አስፈጻሚ	1	2023-08-29 09:53:38.7940000	2023-08-29 09:53:38.7940000
+8	Chief Executive Office	የሥራ አመራር ዋና ሥራ አስፈጻሚ	3	2023-08-29 09:53:38.7940000	2023-08-29 09:53:38.7940000
+9	Competency and Human Resource Administration  Executive Office	ብቃትና የሰው ሀብት አስተዳደር ሥራ አስፈጻሚ	1	2023-08-29 09:53:38.7940000	2023-08-29 09:53:38.7940000
+10	Employment Expansion Lead Executive Office	ሥራ ሥምሪት ማስፋፊያ መሪ ሥራ አስፈጻሚ	5	2023-08-29 09:53:38.7940000	2023-08-29 09:53:38.7940000
+12	Industry Relations and Working Conditions Control Lead Executive Office	ኢንዱስትሪ ግንኙነትና የሥራ ሁኔታዎች ቁጥጥር መሪ ሥራ አስፈጻሚ 	2	2023-08-29 09:53:38.7940000	2023-08-29 09:53:38.7940000
+13	Information Communication Technology Executive Office	ኢንፎርሜሽን ኮሙኒኬሽን ቴክኖሎጂ ሥራ አስፈጻሚ	1	2023-08-29 09:53:38.7940000	2023-08-29 09:53:38.7940000
+14	Institutional Change Executive Office	ተቋማዊ ለውጥ ሥራ አስፈጻሚ	1	2023-08-29 09:53:38.7940000	2023-08-29 09:53:38.7940000
+15	Job Opportunity Creation Expansion lead Executive Office	ሥራ ዕድል ፈጠራ ማስፋፊያ መሪ ሥራ አስፈጻሚ	5	2023-08-29 09:53:38.7940000	2023-08-29 09:53:38.7940000
+16	Labor Market Information System and Technology Transfer Lead Executive Office	ሥራ ገበያ መረጃ ሥርዓትና ቴክኖሎጂ ሽግግር መሪ ሥራ አስፈጻሚ	3	2023-08-29 09:53:38.7940000	2023-08-29 09:53:38.7940000
+17	Legal Service Executive Office	ህግ አገልግሎት ሥራ አስፈፃሚ	3	2023-08-29 09:53:38.7940000	2023-08-29 09:53:38.7940000
+18	Minister's office	ሚንስትር ጽ/ቤት	6	2023-08-29 09:53:38.7940000	2023-08-29 09:53:38.7940000
+19	Procurement and Finance Executive Office	ግዥና ፋይናንስ ሥራ አስፈጻሚ	1	2023-08-29 09:53:38.7940000	2023-08-29 09:53:38.7940000
+20	Public Relations and Communication Executive Offic	ህዝብ ግንኙነትና የኮሙኒኬሽን ሥራ አስፈፃሚ	3	2023-08-29 09:53:38.7940000	2023-08-29 09:53:38.7940000
+21	Strategic Affairs Executive Office	ስትራቴጂክ ጉዳዮች ሥራ አስፈጻሚ	1	2023-08-29 09:53:38.7940000	2023-08-29 09:53:38.7940000
+22	Training and Institutional Capacity Building Lead Executive Officer	ሥልጠና እና የተቋማት አቅም ግንባታ መሪ ሥራ አስፈፃሚ	4	2023-08-29 09:53:38.7940000	2023-08-29 09:53:38.7940000
+23	Vocational Level and System Training Preparation and Competency Assessment lead Executive Officer	ሙያ ደረጃና ሥርዓተ ሥልጠና ዝግጅትና ብቃት ምዘና መሪ ሥራ አስፈፃሚ	4	2023-08-29 09:53:38.7940000	2023-08-29 09:53:38.7940000
+24	Women's and Social Affairs Inclusive Implementation Executive Office	ሴቶችና ማህበራዊ ጉዳዮች አካትቶ ትግበራ ሥራ አስፈጻሚ	1	2023-08-29 09:53:38.7940000	2023-08-29 09:53:38.7940000
+25	Foreign Employee Deployment Lead Executive Officer	የውጭ ሀገር ሠራተኛ ሥምሪት መሪ ሥራ አስፈጻሚ	2	2023-08-29 09:53:38.7940000	2023-08-29 09:53:38.7940000
+26	Employer and Labor Affairs	የአሠሪና ሠራተኛ ጉዳይ ዘርፍ	2	2023-08-29 09:53:38.7940000	2023-08-29 09:53:38.7940000
+27	Technical and Vocational Sector	የቴክኒክና ሙያ ዘርፍ	4	2023-08-29 09:53:38.7940000	2023-08-29 09:53:38.7940000
+28	Work, Employment and Market Sector	የሥራ፣ ሥራ ሥምሪትና ገበያ ዘርፍ  	5	2023-08-29 09:53:38.7940000	2023-08-29 09:53:38.7940000
+29	Ethics and Anti-Corruption Executive Office	የሥነ-ምግባርና ፀረ-ሙስና ሥራ አስፈፃሚ	3	2023-08-29 09:53:38.7940000	2023-08-29 09:53:38.7940000
+NULL	NULL	NULL	NULL	NULL	NULL
