@@ -20,4 +20,13 @@ const getAll = async () => {
   }
 };
 
-module.exports = { create, getAll };
+const emailAlreadyExists = async (email) => {
+  try {
+    const Sub = await Subscription.find({ email: email }, email);
+    return Sub;
+  } catch (error) {
+    throw error;
+  }
+};
+
+module.exports = { create, getAll, emailAlreadyExists };
