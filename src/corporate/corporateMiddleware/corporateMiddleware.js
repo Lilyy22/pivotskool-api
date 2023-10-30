@@ -8,7 +8,7 @@ const corporateValidation = async (req, res, next) => {
     phone_no: Joi.string(),
     job_title: Joi.string().required(),
     training_goals: Joi.string(),
-    training_software: Joi.string().required(),
+    training_software: Joi.array().items(Joi.string()).required(),
   });
   const { error } = validSchema.validate(req.body);
   if (error) {

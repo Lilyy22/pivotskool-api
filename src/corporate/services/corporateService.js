@@ -1,24 +1,17 @@
 const Corporate = require("../models/corporate");
 
-const create = async ({
-  company_name,
-  full_name,
-  work_email,
-  phone_no,
-  job_title,
-  training_goals,
-  training_software,
-}) => {
+const create = async (corporate) => {
   try {
     const newCorporate = new Corporate({
-      company_name: company_name,
-      full_name: full_name,
-      work_email: work_email,
-      phone_no: phone_no,
-      job_title: job_title,
-      training_goals: training_goals,
-      training_software: training_software,
+      company_name: corporate.company_name,
+      full_name: corporate.full_name,
+      work_email: corporate.work_email,
+      phone_no: corporate.phone_no,
+      job_title: corporate.job_title,
+      training_goals: corporate.training_goals,
+      training_software: corporate.training_software,
     });
+    await newCorporate.save();
     return newCorporate;
   } catch (error) {
     throw error;

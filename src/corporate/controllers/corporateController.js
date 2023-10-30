@@ -5,7 +5,7 @@ const createCorporate = async (req, res) => {
     const newCorporate = await create(req.body);
     res.send(newCorporate);
   } catch (error) {
-    throw error;
+    res.status(400).send(error.message);
   }
 };
 
@@ -14,7 +14,7 @@ const getAllCorporate = async (req, res) => {
     const get = await getAll();
     res.send(get);
   } catch (error) {
-    throw error;
+    res.status(400).send(error.message);
   }
 };
 

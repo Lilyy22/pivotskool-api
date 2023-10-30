@@ -7,7 +7,7 @@ const corporateSchema = mongoose.Schema({
   },
   full_name: {
     type: String,
-    require: [true, "Full name is required."],
+    required: [true, "Full name is required."],
   },
   work_email: {
     type: String,
@@ -23,9 +23,12 @@ const corporateSchema = mongoose.Schema({
   training_goals: {
     type: String,
   },
-  training_software: {
-    type: String,
-  },
+  training_software: [
+    {
+      type: String,
+      required: [true, "Training software is required."],
+    },
+  ],
 });
 
 module.exports = mongoose.model("Corporate", corporateSchema);

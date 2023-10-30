@@ -3,14 +3,9 @@ const sendEmail = require("../../email/emailTransport");
 
 const subscribe = async (req, res) => {
   try {
-    await sendEmail(
-      "info@pivotskool.com",
-      req.body.email,
-      "<strong>Email Verification</strong>",
-      "verify your email"
-    );
-    const newSub = await create(req.body);
-    res.send(newSub);
+    // const newSub = await create(req.body);
+    // res.send(newSub);cd
+    await sendEmail(req.body.email, "Email Verification", "verify your email");
   } catch (error) {
     res.status(400).send({ error: error.message });
   }
