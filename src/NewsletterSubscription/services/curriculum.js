@@ -1,23 +1,26 @@
-const Subscription = require("../models/subscription");
+const path = require("path");
 
-const send = async ({ email }) => {
+const getCurriculumPdf = async ({ plan }) => {
   try {
-    const newSubscription = new Subscription({
-      email: email,
-    });
-    return await newSubscription.save();
+    if (plan === "regular") {
+      return {
+        filepath: path.join(__dirname, "../../files/Regular_curriculum.pdf"),
+        filename: `Regular_curriculum.pdf`,
+      };
+    } else if (plan === "pro") {
+      return {
+        filepath: path.join(__dirname, "../../files/Pro_curriculum.pdf"),
+        filename: `Pro_curriculum.pdf`,
+      };
+    } else {
+      return {
+        filepath: path.join(__dirname, "../../files/Premium_curriculum.pdf"),
+        filename: `Premium_curriculum.pdf`,
+      };
+    }
   } catch (error) {
     throw error;
   }
 };
 
-const emailAlreadyExists = async (email) => {
-  try {
-    const Sub = await Subscription.find({ email: email }, email);
-    return Sub;
-  } catch (error) {
-    throw error;
-  }
-};
-
-module.exports = { send, emailAlreadyExists };
+module.exports = getCurriculumPdf;

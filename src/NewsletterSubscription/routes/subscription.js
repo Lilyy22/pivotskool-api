@@ -4,7 +4,7 @@ const {
   subscribe,
   getAllSubscribers,
 } = require("../controllers/subscriptionController");
-const validateEmail = require("../subscriptionMiddleware/validateEmail");
+const { validateEmail } = require("../subscriptionMiddleware/validateEmail");
 
 router.post("/", validateEmail, subscribe);
 router.get("/", isAuthenticated, getAllSubscribers);
