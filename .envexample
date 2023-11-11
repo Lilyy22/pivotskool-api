@@ -1,18 +1,5 @@
 PORT = 5000
 MONGO_URL = mongodb://db:27017/PivotBlog?directConnection=true&serverSelectionTimeoutMS=2000&appName=mongosh+1
-SECRET_KEY = 3RaESmwRzaT4tB8MZ8CZwNSJba6mgE3
 
-# DOMAIN_EMAIL_HOST = smtp.gmail.com
-# DOMAIN_EMAIL_PORT = 587
-# DOMAIN_EMAIL = gelilahhamid2@gmail.com
-# DOMAIN_EMAIL_PASSWORD = xzevzublsvgdyzym
-DOMAIN_EMAIL_HOST = mail.layodacha.com
-DOMAIN_EMAIL_PORT = 465
-DOMAIN_EMAIL = info@layodacha.com
-DOMAIN_EMAIL_PASSWORD = 12PY!xO6tjUc
-# DOMAIN_EMAIL_HOST = mail.pivotskool.com
-# DOMAIN_EMAIL_PORT = 143
-# DOMAIN_EMAIL = info@pivotskool.com
-# DOMAIN_EMAIL_PASSWORD = p6nb9EfU13Td
 
 
