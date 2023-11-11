@@ -31,3 +31,6 @@ volumes:
 
 networks:
   shared:
+    # Network configuration
+    name: shared
+    external: true
