@@ -1,6 +1,6 @@
 version: "3"
 services:
-  api:
+  pivotskool-api:
     build:
       context: .
       dockerfile: Dockerfile
@@ -30,7 +30,7 @@ volumes:
   mongodb_data:
 
 networks:
+  pivotskool-api:
   shared:
-    # Network configuration
     name: shared
     external: true
