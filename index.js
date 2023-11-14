@@ -11,12 +11,13 @@ const curriculumRoute = require("./src/NewsletterSubscription/routes/curriculum"
 const cors = require("cors");
 
 const _PORT = process.env.PORT;
+const _CORS = process.env.CORS;
 const app = express();
 
 app.use(express.json());
 app.use(
   cors({
-    origin: "http://localhost:3000",
+    origin: _CORS,
   })
 );
 app.use(cors());
