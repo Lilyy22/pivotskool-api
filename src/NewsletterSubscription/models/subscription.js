@@ -8,7 +8,10 @@ const subscriptionSchema = mongoose.Schema(
       required: [true, "Email is required."],
       index: true,
     },
-    email_verified_at: Date,
+    email_verified_at: {
+      type: Date,
+      required: false,
+    },
     status: {
       type: Boolean,
       default: true,

@@ -30,7 +30,6 @@ const validateEmail = async (req, res, next) => {
     if (error) {
       throw new Error(error.message);
     }
-    await validation(req.body.email);
     next();
   } catch (error) {
     res.status(400).send(error.message);
@@ -46,17 +45,6 @@ const validateEmailPlan = async (req, res, next) => {
     next();
   } catch (error) {
     res.status(400).send(error.message);
-  }
-};
-
-const validation = async (email) => {
-  if (email) {
-    const is_dup = await emailAlreadyExists(email);
-    if (is_dup.length === 0) {
-      return true;
-    } else {
-      throw new Error("Email is already suscribed.");
-    }
   }
 };
 
